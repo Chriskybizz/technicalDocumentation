@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#all{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#sideBar {
+    display: grid;
+    position: static;
+
+    height: 60vh;
+
+}
+
+#sideBar > a {
+    text-decoration: none;
+    color: black;
+}
+
+#sideBar > a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.links{
+    display: grid;
+    height: 5.3vh;
+    background-color: lightgrey;
+    border: 1px black solid;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+#sideBarLinks {
+
+    height: 10vh;
+    background-color: red;
+
+}
+
+#grid{
+    display: grid;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left: 15px;
+
+}
+
+.codeBack{
+    display: grid;
+    width: 60vw;
+    margin: 30px;
+    background-color: lightgray;
+    justify-self: center;
+    padding: 20px;
+    font-size: 15px;
+    
+    }
+
